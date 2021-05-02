@@ -1,0 +1,103 @@
+/* Overflow of text from a box
+/* h2,
+p {
+    width: 400px;
+    font-size: 90%;
+    line-height: 1.2em;
+}
+
+h2 {
+    color: #0088dd;
+    border-bottom: 1px solid #0088dd;
+}
+
+p {
+    min-height: 10px;
+    max-height: 30px;
+    overflow: hidden;
+} */
+/* 
+div {
+    max-width: 200px;
+    border: 1px solid
+}
+
+div p {
+    max-width: 700px;
+    border: 1px solid;
+    overflow: visible;
+}
+
+
+
+@media (min-width: 400px) and (max-width:600px) {
+    div {
+        background-color: #000;
+        color: #fff;
+    }
+
+    div p {
+        width: 100%;
+    }
+}
+ */
+
+/* 
+div p {
+    max-width: 500px;
+    border: 1px solid rgb(112, 0, 0);
+}
+
+
+div.parent {
+    display: flex;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+div.parent div.child {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+div.col {
+    border: 1px solid #000;
+} */
+
+
+.container {
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column1,
+.column2,
+.column3,
+.column4 {
+    width: 150px;
+    border: 1px solid;
+    margin-bottom: 5px;
+}
+
+
+
+
+.column1 {
+    order: 1;
+}
+
+.column2 {
+    order: -1;
+}
+
+.column3 {
+    order: 2;
+}
+
+.column3 {
+    order: 3;
+}
