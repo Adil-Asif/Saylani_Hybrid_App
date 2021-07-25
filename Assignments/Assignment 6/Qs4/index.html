@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <form action="">
+      <label for="name">Name: </label>
+      <input type="text" name="name" id="name" />
+
+      <br />
+      <br />
+      <br />
+      <label for="">Gender: </label>
+      <input type="radio" name="gender" id="gender" value="Male" />
+      <label for="gender">Male</label>
+      <input type="radio" name="gender" id="gender" value="Female" />
+      <label for="gender">Female</label>
+      <br />
+      <br />
+      <br />
+      <label for="address">Address: </label>
+      <textarea
+        name="address"
+        id="address"
+        placeholder="Enter Your Address"
+      ></textarea>
+      <br />
+      <br />
+      <br />
+      <label for="education">Education</label>
+      <select name="education" id="education">
+        <option value="Alevls">A-Levels</option>
+        <option value="Fedral">Fedral</option>
+        <option value="Inter">Inter</option>
+      </select>
+      <br />
+      <br />
+      <br />
+      <label for="profession">Profession</label>
+
+      <select name="profession" id="profession">
+        <option value="Software Developer">Software Developer</option>
+        <option value="Web Developer">Web Developer</option>
+        <option value="Marketing Manager">Marketing Manager</option>
+        <option value="HR Manager">HR Managerr</option>
+      </select>
+      <br />
+      <br />
+      <br />
+
+      <button onclick="readData()">Submit Data</button>
+    </form>
+  </body>
+</html>
